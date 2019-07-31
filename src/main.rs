@@ -1,3 +1,7 @@
+fn display(arg: &str) {
+    println!("{}", arg);
+}
+
 fn main() {
-    println!("Hello, world!");
+    display("Hello, world!");
 }
